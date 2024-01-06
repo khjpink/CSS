@@ -1,0 +1,19 @@
+/* h1:hover{
+    background-color: pink;
+}
+h1:hover{
+    background-color: pink;
+}
+
+h1:active{
+    color: red;
+} */
+
+h1{
+    color: red;
+}
+
+ul>li{
+    color: skyblue;
+}
+

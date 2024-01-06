@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #wrap{
+            width: 1000px;
+            height: 1000px;
+            background-color: pink;
+        }
+
+        #div1{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            float: left;
+        }
+
+        #div2{
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            float: left;
+        }
+
+        #div3{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+            float: right;
+        }
+
+        #div4{
+            /* 플루트 속성 안먹힘 */
+            clear: both;
+
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- 인라인은 너비높이 줄수없음. 안에 크기만큼 줘버림. 
+        너비높이 유지한채 위치를 옮기려면 플룻트 속성 사용 -->
+
+    <div id="wrap">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    </div>
+
+</body>
+</html>

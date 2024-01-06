@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            color: red;
+            background-color: beige;
+        }
+
+        div h3{
+            color: brown;
+        }
+
+        div>p{
+            background-color: rgb(255, 255, 255);
+        }
+    /* 근접후행 선택자 : p태그 바로 옆에 있는 span 1개한테만  */
+        p + span{
+            background-color: yellow;
+        }
+
+    /* 후행 선택자 : p부터 span전부 해줘 */
+        p~span{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>카카오하느님</h1>
+
+    <div>
+        <h3>할아버지라이언</h3>
+
+        <p>아빠라이언</p>
+        <span>엄마어피치</span>
+
+
+        <ul>
+            <li>응애춘식이</li>
+            <li>응애어피치</li>
+            <li>응애프로도</li>
+        </ul>
+
+        <ol>
+            <li>응애춘식이</li>
+            <li>응애어피치</li>
+            <li>응애프로도</li>
+        </ol>
+    </div>
+
+    <p>딸기</p>
+    <span>바나나</span>
+    <span>블루베리</span>
+    <span>키위</span>
+    
+    
+</body>
+</html>

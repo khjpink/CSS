@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* 이렇게 만들면 반응형이 됨 */
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        #wrap{
+            width: 100%;
+            /* 높이는 %못줌 */
+            height: 1000px;
+            background-color: aliceblue;
+        }
+
+        #header{
+            width: 100%;
+            height: 20%;
+            background-color: silver;
+        }
+
+        #container1{
+            float: left;
+            width: 80%;
+            height: 70%;
+            background-color: blueviolet;
+        }
+
+        #container2{
+            float: left;
+            width: 80%;
+            height: 70%;
+            background-color: pink;
+        }
+
+        #side_nav{
+            float: left;
+            width: 20%;
+            height: 70%;
+            background-color: rgb(35, 35, 180);
+            
+        }
+
+        /* #footer{
+            clear: both;
+            width: 100%;
+            height: 10%;
+            background-color: orange;
+        } */
+
+    </style>
+</head>
+
+<body>
+    
+    <div id="wrap">
+        <div id="header"></div>
+        <div id="container1"></div>
+        <div id="container2"></div>
+        <div id="side_nav"></div>
+        <div id="footer"></div>
+    </div>
+
+</body>
+</html>

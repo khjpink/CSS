@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #box1, #box2, #box3, #box4{
+            width: 300px;
+            height: 300px;
+            color: pink;
+        }
+
+        #box1{
+            /* 패딩을 주면 가로세로가 늘어나버림, 이걸 고정시키려면? border-box 속성 적용*/
+            padding-top: 20px;
+            box-sizing: border-box;
+            background-color: yellow;
+        }
+
+        #box2{
+            background-color: blue;
+            padding-left: 200px;
+        }
+        #box3{
+            background-color: green;
+            padding-left: 400px;
+        }
+        #box4{
+            background-color: gray;
+            padding-left: 600px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="box1">글씨가 어떻게 될까요</div>
+    <div id="box2">글씨가 어떻게 될까요</div>
+    <div id="box3">글씨가 어떻게 될까요</div>
+    <div id="box4">글씨가 어떻게 될까요</div>
+    
+</body>
+</html>

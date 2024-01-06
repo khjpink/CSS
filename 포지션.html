@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+        }
+
+        #static{
+            background-color: blue;
+            top: 10px;
+            left:10px;
+        }
+        
+        #relative{
+            background-color: yellow;
+            position: relative;
+            top: 10px;
+            left:10px;
+        }
+        
+        #parents{
+            position: relative;
+        }
+
+        #absolute{
+            background-color: skyblue;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        #fixde{
+            background-color: green;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    body태그
+
+    <div id="parents">
+        parents태그
+
+        <div id="static"></div>
+        <div id="relative"></div>
+        <div id="absolute"></div>
+        <div id="fixde"></div>
+    </div>
+
+</body>
+</html> 
